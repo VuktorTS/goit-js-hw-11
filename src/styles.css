@@ -15,7 +15,6 @@ body {
   background-image: linear-gradient(to right, #010101, #742516);
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 20px;
 }
 
 img {
@@ -106,6 +105,9 @@ a:link {
   flex-direction: column;
   gap: 4px;
   align-items: center;
+}
+.info-item:last-child {
+  margin-bottom: 20px;
 }
 
 .loader {
